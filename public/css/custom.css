@@ -1,0 +1,53 @@
+/* Menetapkan warna teks hitam untuk elemen-elemen tertentu */
+h4,
+label,
+.card-detail > .card-body > .row > .col-md-8,
+.table-detail td,
+.table > tr > * {
+    color: black;
+}
+
+.table-main {
+    text-align: center;
+}
+
+/* Mengubah font untuk semua elemen */
+.table > tbody > tr > * {
+    vertical-align: middle;
+}
+
+body,
+h1, h2, h3, h5, h6,
+p,
+.table {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Menetapkan font dan warna untuk header dan seluruh sel dalam tabel */
+.table th
+{
+    font-family: 'Arial', sans-serif;
+    color: white; 
+}
+.table td {
+    font-family: 'Arial', sans-serif;
+    color: #000; 
+}
+
+/* Menetapkan warna teks untuk judul kartu */
+.card-header.py-3 h3 {
+    color: black; /* atau color: #000; */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Gaya untuk thead dalam #dataTable */
+#dataTable thead {
+    background-color: darkcyan;
+    text-align: center;
+   
+}
+
+.nav-link[data-widget="pushmenu"] {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: black; /* Change the color to black or your preferred color */
+}

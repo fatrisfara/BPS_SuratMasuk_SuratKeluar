@@ -1,0 +1,13 @@
+           PASSWORD
+
+ADMIN : 
+	username : Ratri
+	password : Tatausaha123
+
+PEGAWAI   
+	username : Bayu
+	password : Statistikbayu123
+
+KEPALA BPS
+	username : kepala
+	password : Kepala123

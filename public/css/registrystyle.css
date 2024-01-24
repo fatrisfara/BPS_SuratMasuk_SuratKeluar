@@ -1,0 +1,139 @@
+    .registry {
+        margin: 0 auto;
+        margin-top: 2%;
+        top: 50%;
+        left: 50%;
+        background: -webkit-linear-gradient(bottom, #1e273b, #153d55, #104147);
+        opacity: 0.8;
+        padding: 40px;
+        max-width: 1000px;
+        width: 100%;
+        box-shadow: 0px 0px 15px 10px black;
+        border-radius: 15px;
+    }
+
+    .avatar {
+        margin: 0 auto;
+        margin-top: -70px;
+        left: 50%;
+        font-size: 30px;
+        background: #17a2b8;
+        width: 80px;
+        height: 80px;
+        line-height: 50px;
+        text-align: center;
+        border-radius: 50%;
+    }
+    .box-registry {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+        border-bottom: 2px solid white;
+        padding: 4px 0;
+        align-items: center; /* Tambahkan ini untuk membuat label dan input sejajar secara vertikal */
+    }
+
+    .box-registry label {
+        font-size: 18px;
+        color: white;
+        padding: 5px 0;
+        width: 40%; /* Sesuaikan lebar label sesuai kebutuhan */
+    }
+
+    .box-registry input {
+       pointer-events: auto; /* Ganti dari none menjadi auto */
+    width: 58%;
+    padding: 5px 0;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    }
+
+    .box-registry input::placeholder {
+        color: white;
+    }
+
+    .box-registry input:hover {
+        background: rgba(10, 10, 10, 0.5);
+    }
+
+    .button-class {
+        margin: 0 auto;
+    }
+
+    .button {
+        margin-top: 15px;
+        margin-left: 8px;
+        margin-right: 5px;
+        background: none;
+        border: 1px solid white;
+        padding: 7px;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 3px;
+        cursor: pointer;
+        border-radius: 15px;
+    }
+
+    .button:hover {
+        background: #17a2b8;
+        border: 1px aqua solid;
+        border-style: dotted;
+    }
+
+    .box-registry input:focus {
+        outline: none;
+    }
+
+    .pencil {
+        position: relative;
+        top: -2px;
+        left: 10px;
+        width: 100%;
+    }
+
+    .book {
+        position: relative;
+        top: -18px;
+        width: 100%;
+    }
+
+    /* Menambahkan gaya pada elemen select */
+.box-registry select {
+    width: 58%;
+    padding: 5px 0;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    appearance: none; /* Menghilangkan default styling di browser */
+    -webkit-appearance: none; /* Untuk browser berbasis WebKit seperti Chrome dan Safari */
+    -moz-appearance: none; /* Untuk browser Mozilla Firefox */
+    cursor: pointer;
+}
+
+/* Menambahkan gaya pada elemen option */
+.box-registry select option {
+    background: #104147; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    font-size: 15px;
+}
+
+/* Memberikan efek hover pada option */
+.box-registry select option:hover {
+    background: rgba(10, 10, 10, 0.5);
+}
+
+/* Memberikan efek focus pada select */
+.box-registry select:focus {
+    outline: none;
+}
+
+/* Mengatur margin pada elemen select */
+.box-registry .select-container {
+    width: 58%;
+    margin-bottom: 10px;
+}
